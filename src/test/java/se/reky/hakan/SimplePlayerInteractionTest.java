@@ -24,7 +24,7 @@ class SimplePlayerInteractionTest {
     void setupPlayerTest() {
         playerInteraction = setUpScanner("Player_1");
         playerInteraction.setupPlayer(player);
-        assertEquals("Nick", player.getName());
+        assertEquals("Player_1", player.getName());
     }
 
     @DisplayName("Testing if Hp was updated")
